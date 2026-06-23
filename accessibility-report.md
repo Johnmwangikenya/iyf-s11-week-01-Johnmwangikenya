@@ -5,7 +5,7 @@
 ### Issues found
 
 - Touch targets do not have sufficient size or spacing.
-Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. 
+Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets.
 
 ### How you fixed them
 

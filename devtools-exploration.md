@@ -7,7 +7,7 @@ page?
 
     - ten html elements
 
-    ```
+    ```html
     <html>
     <head>
     <title>
@@ -24,9 +24,8 @@ page?
 
     - Example Domain
 
-    ```
+    ```html
 
-    
     <title>Example Domain</title>
 
     ```
@@ -35,7 +34,7 @@ page?
 
     - one h1 heading
 
-    ```
+    ```html
     <h1>Example Domain</h1>
 
     ```
@@ -44,13 +43,13 @@ page?
 
 1. Find the navigation menu - what tag is it wrapped in?
 
-    ```
+    ```html
     <nav>
     ```
 
 2. How is the search bar structured?
 
-    ```
+    ```html
     
     ```
 
@@ -66,18 +65,17 @@ page?
 
 1. Identify 5 different HTML elements
 
-|  HTML Element   | Purpose   |
-|-----------------|-----------|
-|header           | Contains the page header and logo |
-| form            | Contains the search form |
-| input           | Allows users to enter a search term    |
-|button           | Submits the search |
+|  HTML Element   | Purpose                                     |
+|-----------------|---------------------------------------------|
+|header           | Contains the page header and logo           |
+| form            | Contains the search form                    |
+| input           | Allows users to enter a search term         |
+|button           | Submits the search                          |
 |a                | Links to language versions and other pages  |
-|
 
 1. Find a form element and list its inputs
 
-```
+```html
 <form>
     <input type="search" name="search">
     <input type="hidden" name="language">
@@ -90,5 +88,3 @@ page?
 |search           | User enters a search query   |
 | language        | Stores the selected language |
 | submit          | Sends the search request     |
-
-

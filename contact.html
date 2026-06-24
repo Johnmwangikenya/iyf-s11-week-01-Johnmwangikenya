@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Mwangi - ContactMe </title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch using the form below.</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+254 7xx xxx xxx">
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Message Details</legend>
+
+                <p>
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="">-- Select a Subject --</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Support Request</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40"
+                        placeholder="Write your message here (minimum 50 characters)..." minlength="50"
+                        required></textarea>
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+
+                <p>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">
+                        Subscribe to our newsletter
+                    </label>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+
+        </form>
+
+
+        <section>
+            <h2>Connect With Me</h2>
+            <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="tel:+254700000000">call me</a></li>
+                <li><a href="mailto:john@example.com">Email Me</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Location</h2>
+            <p>Nairobi, Kenya</p>
+            <p>Timezone: East Africa Time (EAT UTC+3)</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 John Mwangi</p>
+    </footer>
+
+ 
+
+</body>
+
+</html>

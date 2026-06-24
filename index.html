@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Mwangi - About Me</title>
+    <title>John Mwangi - Home</title>
     <style>
-        *{
-            margin:20px;
+        * {
+            margin: 20px;
         }
     </style>
 </head>
@@ -15,20 +15,24 @@
 <body>
 
     <header>
-        <h1>John Mwangi</h1>
 
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <section class="hero">
+            <h1>John Mwangi</h1>
+            <p>Full-Stack Web Developer & Embedded Systems Engineer</p>
+        </section>
     </header>
 
     <main>
         <article id="about">
-            <h2>About Me</h2>
+            <h2>Summary</h2>
 
             <figure>
                 <img src="pIMG_1665.jpg" alt="Photo of John Mwangi" width="300" height="300">
@@ -61,26 +65,85 @@
                 <p>Currently learning semantic HTML and modern web development.</p>
             </section>
         </aside>
+        <h2>Exploring New HTML Tags</h2>
+        <p>The <abbr title="HyperText Markup Language">HTML</abbr> language is the foundation of web pages.</p>
+        <blockquote> "The best way to predict the future is to invent it." </blockquote>
+        <p><cite>Steve Jobs</cite></p>
+        <p>Use the <code>&lt;header&gt;</code> tag to create a page header.</p>
+        <p>Remember to <mark>save your work frequently</mark>.</p>
+        <p>Published on <time datetime="2026-06-24">June 24, 2026</time></p>
+        <details>
+            <summary>Click to learn more</summary>
+            <p>Semantic HTML improves accessibility and SEO.</p>
+            <article>
+
+                <header>
+                    <h2>Getting Started with Semantic HTML</h2>
+
+                    <p>
+                        By John Mwangi |
+                        <time datetime="2026-06-24">June 24, 2026</time>
+                    </p>
+                </header>
+
+                <img src="https://via.placeholder.com/800x400" alt="Semantic HTML illustration">
+
+                <h2>Introduction</h2>
+
+                <p>
+                    Semantic HTML uses meaningful tags to describe the structure
+                    and purpose of content on a webpage.
+                </p>
+
+                <h2>Benefits of Semantic HTML</h2>
+
+                <p>
+                    Semantic elements improve accessibility, search engine
+                    optimization, and code maintainability.
+                </p>
+
+                <h2>Conclusion</h2>
+
+                <p>
+                    Learning semantic HTML is an important step toward becoming
+                    a professional web developer.
+                </p>
+
+            </article>
+
+            <section>
+                <h2>Related Posts</h2>
+
+                <ul>
+                    <li><a href="#">Understanding Accessibility</a></li>
+                    <li><a href="#">HTML5 Best Practices</a></li>
+                    <li><a href="#">Creating Responsive Websites</a></li>
+                </ul>
+            </section>
+  
+
+        <section>
+            <h2>Connect With Me</h2>
+            <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="tel:+254700000000">call me</a></li>
+                <li><a href="mailto:john@example.com">Email Me</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Location</h2>
+            <p>Nairobi, Kenya</p>
+            <p>Timezone: East Africa Time (EAT UTC+3)</p>
+        </section>
     </main>
 
-    <footer id="contact">
-        <h3>Contact Information</h3>
-
-        <p>
-            GitHub:
-            <a rel="noopener noreferrer" href="https://github.com/johnmwangikenya" target="_blank">
-                Visit My GitHub Profile
-            </a>
-        </p>
-
-        <p>
-            Email:
-            <a href="mailto:johnmwangi541@gmail.com">
-                johnmwangi541@gmail.com
-            </a>
-        </p>
-
-        <p> &copy; 2026 John Mwangi. All Rights Reserved.</p>
+    <footer>
+        <p>&copy; 2026 John Mwangi</p>
     </footer>
+
+    
 
 </html>

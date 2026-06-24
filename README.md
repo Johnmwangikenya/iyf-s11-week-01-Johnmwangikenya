@@ -2,7 +2,7 @@
 
 ## Author
 - **John Mwangi:** 
-- **GitHub:** [@MaisoriKitayama](https://github.com/Johnmwangikenya)
+- **GitHub:** [@John Mwangi kenya](https://github.com/Johnmwangikenya)
 - **24:** 06 , 2026
 
 ## Project Description

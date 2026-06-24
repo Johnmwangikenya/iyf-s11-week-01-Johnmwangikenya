@@ -1,13 +1,37 @@
-# Technical Article — Semantic HTML & Accessibility 🟡
+# Week {Number}: {Project Title}
+
+## Author
+- **John Mwangi:** 
+- **GitHub:** [@MaisoriKitayama](https://github.com/Johnmwangikenya)
+- **24:** 06 , 2026
+
+## Project Description
+Portfolio site build.
+
+## Technologies Used
+- HTML5
+- CSS3
+
+## Features
+- interactive navigation
+- sematic html
+  
+
+## How to Run
+1. Clone this repository
+2. Open `index.html` in your browser
+  
+
+## Lessons Learned
+web foundations 
+
+## Challenges Faced
+
+git branch management 
+GitHub existing files merging error 
 
 
 
-Turn your accessibility audit (Task 2.3) into a short public post on Dev.to, LinkedIn, or Medium.
 
-Your article should:
-
- Explain what semantic HTML is and why it matters
- Show a before/after snippet (non-semantic vs semantic)
- Describe 2–3 accessibility issues you found and how you fixed them
- Link your deployed portfolio
- Be 300–600 words, with code in code blocks
+## Live Demo (if deployed)
+[View Live Demo](https://johnmwangikenya.github.io/iyf-s11-week-01-Johnmwangikenya/about.html)
